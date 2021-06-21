@@ -4,16 +4,14 @@ import profilePic from '../public/images/JavierWasserman.jpg'
 import coverPic from '../public/images/cover.jpg'
 import dreamly from '../public/images/dreamly.png'
 
-import styles from '../styles/Home.module.css'
-
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Javier Wasserman - asdasdasd</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div style={{ height: '400px', width: '100%', position: 'relative' }}>
+      <div className='w-full' style={{ height: '400px', position: 'relative' }}>
         <Image style={{ height: '150px' }} src={coverPic} layout='fill' objectFit='cover' objectPosition='center' quality={100}></Image>
       </div>
 
@@ -21,21 +19,21 @@ export default function Home() {
         <Image src={profilePic} width='138' height='150'></Image>
       </div>
 
-      <div className='container mx-auto sm:w-8/12'>
+      <div className='container mx-auto px-2 sm:px-0 sm:w-8/12'>
         <h1 className='font-roboto font-bold my-3'>Hi! Hello! Hallo!</h1>
-        <div className='w-full p-4 bg-gray-100 font-mono text-sm'>
+        <div className='w-full p-4 bg-gray-100 font-mono text-xs '>
 
-          <pre>{`
-          const me = () => {
-            const name = 'Javier Alberto Wasserman';
-            const birthDate = 'December 13/1984';
-            const birthLocation = 'Buenos Aires, Argentina';
-            
-            return <>
-              Hola! Hi! Hallo! I am {name}, I was born in {birthLocation}, {birthDate}
-            </>
-          }
-        `}</pre>
+  <pre className='overflow-auto'>{`
+  const me = () => {
+    const name = 'Javier Alberto Wasserman';
+    const birthDate = 'December 13/1984';
+    const birthLocation = 'Buenos Aires, Argentina';
+    
+    return <>
+      Hola! Hi! Hallo! I am {name}, I was born in {birthLocation}, {birthDate}
+    </>
+  }
+  `}</pre>
 
         </div>
 
@@ -45,8 +43,8 @@ export default function Home() {
           <p className='leading-6 mt-4'>Problem solver. Optimistic. Lateral thinking. Sagittarius. Musician. Cook. Wine Geek.</p>
         </div>
         <h2 className='font-roboto font-bold mt-10'>Contact information</h2>
-        <div className='w-full border-b pb-6'>
-          <div className='flex'>
+        <div className='w-full border-b pb-6 '>
+          <div className='flex flex-col sm:flex-row' >
             <div className='p-3 font-normal text-base bg-blue-300 bg-opacity-50 mr-2 rounded-sm'>jamarks at gmail.com</div>
             <div className='p-3 font-normal text-base bg-blue-300 bg-opacity-50 mr-2 rounded-sm'><a href=''>Linkedin</a></div>
             <div className='p-3 font-normal text-base bg-blue-300 bg-opacity-50 mr-2 rounded-sm'><a href=''>Twitter</a></div>
@@ -133,17 +131,17 @@ export default function Home() {
         <div className='w-full my-8 pb-3'>
           <h3 className='text-gray-500 font-semibold text-sm'>TEVELES ASOCIADOS | ASP.NET & SQL Server Full-Stack Developer</h3>
           <div className='leading-8 text-gray-500 py-1'>Buenos Aires (AR) 2005-2006</div>
-          <span>Migrated a huge Visual Basic ERP to a ASP.NET web based cloud ERP</span>
+          <ul><li className='list-disc ml-8 mt-2'>Migrated a huge Visual Basic ERP to a ASP.NET web based cloud ERP</li></ul>
         </div>
         <div className='w-full my-8 pb-3'>
           <h3 className='text-gray-500 font-semibold text-sm'>OMINT | ASP.NET & SQL Server Full-Stack Developer</h3>
           <div className='leading-8 text-gray-500 py-1'>Buenos Aires (AR) 2004-2005</div>
-          <span>ASP.NET + SQL SERVER Backend developer</span>
+          <ul><li className='list-disc ml-8 mt-2'>ASP.NET + SQL SERVER Backend developer</li></ul>
         </div>
         <div className='w-full my-8 pb-3'>
           <h3 className='text-gray-500 font-semibold text-sm'>SMS | Visual Basic & SQL Server Developer Jr.</h3>
           <div className='leading-8 text-gray-500 py-1'>Buenos Aires (AR) 2002-2004</div>
-          <span>Visual Basic and MQ SQL Server based in-house ERP for mid-large size companies.</span>
+          <ul><li className='list-disc ml-8 mt-2'>Visual Basic and MQ SQL Server based in-house ERP for mid-large size companies.</li></ul>
         </div>
 
         <div className='pt-8 border-b border-t'>
@@ -164,7 +162,7 @@ export default function Home() {
           </div>
             <div className='leading-8 text-gray-500'>Coursera 10/2020</div>
             <div className='w-full p-4 my-3 bg-gray-100 font-mono text-sm'>
-              Certificate: <a className='underline' href='https://drive.google.com/file/d/1D7vaiLDjXzN2HM8qL-PUfsld6YHW-mO5/view?usp=sharing'>https://drive.google.com/file/d/1D7vaiLDjXzN2HM8qL-PUfsld6YHW-mO5/view?usp=sharing</a>
+              Certificate: <a className='underline' href='https://drive.google.com/file/d/1D7vaiLDjXzN2HM8qL-PUfsld6YHW-mO5/view?usp=sharing'>Here</a>
             </div>
           </div>
 
@@ -173,7 +171,7 @@ export default function Home() {
           </div>
             <div className='leading-8 text-gray-500'>CoderHouse 08/2020</div>
             <div className='w-full p-4 my-3 bg-gray-100 font-mono text-sm'>
-              Certificate: <a className='underline' href='https://drive.google.com/file/d/1HDqtQqvYNucFhes5yIQJFYN_oSFENrKy/view?usp=sharing'>https://drive.google.com/file/d/1HDqtQqvYNucFhes5yIQJFYN_oSFENrKy/view?usp=sharing</a>
+              Certificate: <a className='underline' href='https://drive.google.com/file/d/1HDqtQqvYNucFhes5yIQJFYN_oSFENrKy/view?usp=sharing'>Here</a>
             </div>
           </div>
         </div>
@@ -197,6 +195,7 @@ export default function Home() {
       <footer className=''>
 
       </footer>
+      
     </div>
   )
 }
