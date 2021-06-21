@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Javier Wasserman - asdasdasd</title>
+        <title>Javier Wasserman - Full Stack Dev & Entrepreneur</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className='w-full' style={{ height: '400px', position: 'relative' }}>
