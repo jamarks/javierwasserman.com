@@ -51,11 +51,11 @@ export default function Home() {
         <h2 className='font-roboto font-bold mt-10'>Contact information</h2>
         <div className='w-full border-b pb-6 '>
           <div className='flex flex-col sm:flex-row' >
-            <div className='p-3 font-normal text-base bg-blue-300 bg-opacity-50 mr-2 rounded-sm'>jamarks at gmail.com</div>
-            <div className='p-3 font-normal text-base bg-blue-300 bg-opacity-50 mr-2 rounded-sm'><a href=''>Linkedin</a></div>
-            <div className='p-3 font-normal text-base bg-blue-300 bg-opacity-50 mr-2 rounded-sm'><a href=''>Twitter</a></div>
-            <div className='p-3 font-normal text-base bg-blue-300 bg-opacity-50 mr-2 rounded-sm'><a href=''>Github</a></div>
-            <div className='p-3 font-normal text-base bg-blue-300 bg-opacity-50 mr-2 rounded-sm'><a href=''>Whatsapp</a></div>
+            <div className='p-3 font-normal text-base bg-blue-300 bg-opacity-50 mr-2 rounded-sm'>jamarks at gmail com</div>
+            <div className='p-3 font-normal text-base bg-blue-300 bg-opacity-50 mr-2 rounded-sm'><a href='https://www.linkedin.com/in/javier-wasserman-45a195a/'>Linkedin</a></div>
+            <div className='p-3 font-normal text-base bg-blue-300 bg-opacity-50 mr-2 rounded-sm'><a href='https://twitter.com/javierwasserman'>Twitter</a></div>
+            <div className='p-3 font-normal text-base bg-blue-300 bg-opacity-50 mr-2 rounded-sm'><a href='https://github.com/jamarks/'>Github</a></div>
+            <div className='p-3 font-normal text-base bg-blue-300 bg-opacity-50 mr-2 rounded-sm'><a href='https://wa.me/5491136867035'>Whatsapp</a></div>
             </div>
         </div>
         <h2 className='font-roboto font-bold mt-8'>Last Freelance Projects</h2>
