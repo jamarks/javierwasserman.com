@@ -7,6 +7,7 @@ import caece from '../public/images/universidad-caece.svg'
 import ort from '../public/images/world-ort.svg'
 import coursera from '../public/images/coursera.svg'
 import coderhouse from '../public/images/coderhouse.png'
+import vercel from '../public/images/vercel.svg'
 
 
 export default function Home() {
@@ -43,8 +44,8 @@ export default function Home() {
         </div>
 
         <div className='sm:border-l-4 sm:pl-10 w-full py-3 mt-2'>
-          <p className='leading-6'>I am an Entrepreneur and Full-Stack Developer, born in Argentina, now living in Berlín 🇩🇪 with more than 15 years of coding experience (PHP, Node, React,  Next.js enthusiast)</p>
-          <p className='leading-6 mt-4'>In 2013 I have co-founded EntrenaYa, a B2C & B2B fitness marketplace, with more than 800 gyms and fitness centers from Latin America.</p>
+          <p className='leading-6'>I am an Entrepreneur and Full-Stack Developer, born in Buenos Aires, Argentina 🇦🇷, now living in Berlín 🇩🇪 with more than 15 years of coding experience (PHP, Node, React,  Next.js enthusiast)</p>
+          <p className='leading-6 mt-4'>In 2013 I have co-founded EntrenaYa, a B2C & B2B fitness subscriptions marketplace, with more than 800 gyms and fitness centers from LATAM working with us.</p>
           <p className='leading-6 mt-4'>Trained by great business accelerators such us 500 Startups & Startup Chile.<br/> Problem solver. Optimistic. Lateral thinking. Sagittarius. Musician. Cook. Wine Geek.</p>
           
         </div>
@@ -62,7 +63,7 @@ export default function Home() {
         <div className='w-full pb-10 border-b'>
           <h4>Dreamly | Main Full-Stack Developer</h4>
           <ul className='list-disc ml-8 mt-2'>
-            <li className='leading-8'>NextJS (React Framework) + TailwindCSS - Deployed in Vercel.</li>
+            <li className='leading-8'>Nextjs (React Framework) + TailwindCSS - Deployed in Vercel.</li>
             <li className='leading-8'>NodeJS Express Server: API Rest - PostgreSQL with Sequelize ORM - Deployed in Heroku.</li>
           </ul>
           <div className='flex p-2 border-2 mt-6'>
@@ -185,7 +186,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className='pt-8 border-b'>
+        <div className='pt-8'>
           <h2 className='font-roboto font-bold mt-0'>Formal education</h2>
           <div className='w-full my-4 pb-3'>
             <div className='mr-4 float-left'><Image src={caece} width='50' height='50'></Image></div>
@@ -205,7 +206,10 @@ export default function Home() {
       </div>
 
       <footer className=''>
-
+      <div className='container w-full mx-auto px-2 sm:px-0 border-t content-center'>
+        <p className='py-4 text-md mt-4 mb-4 text-gray-400'>This portfolio was written by me in JSX, under React Library with <a href='https://nextjs.org/'>Nextjs</a> and <a href='https://tailwindcss.com/'>tailwindcss</a> frameworks, hosted for free in <a href='https://vercel.com/'>vercel</a>. 
+        <br/> Whant this template for yourself? Sure, just contact me!</p>
+      </div>
       </footer>
       
     </div>
