@@ -42,10 +42,11 @@ export default function Home() {
 
         </div>
 
-        <div className='sm:border-l-4 sm:pl-10 w-full py-3'>
+        <div className='sm:border-l-4 sm:pl-10 w-full py-3 mt-2'>
           <p className='leading-6'>I am an Entrepreneur and Full-Stack Developer, born in Argentina, now living in Berlín 🇩🇪 with more than 15 years of coding experience (PHP, Node, React,  Next.js enthusiast)</p>
-          <p className='leading-6 mt-4'>In 2013 I have co-founded EntrenaYa, a B2C & B2B fitness platform, focusing on Product Management, Business and UX Optimization.</p>
-          <p className='leading-6 mt-4'>Problem solver. Optimistic. Lateral thinking. Sagittarius. Musician. Cook. Wine Geek.</p>
+          <p className='leading-6 mt-4'>In 2013 I have co-founded EntrenaYa, a B2C & B2B fitness marketplace, with more than 800 gyms and fitness centers from Latin America.</p>
+          <p className='leading-6 mt-4'>Trained by great business accelerators such us 500 Startups & Startup Chile.<br/> Problem solver. Optimistic. Lateral thinking. Sagittarius. Musician. Cook. Wine Geek.</p>
+          
         </div>
         <h2 className='font-roboto font-bold mt-10'>Contact information</h2>
         <div className='w-full border-b pb-6 '>
