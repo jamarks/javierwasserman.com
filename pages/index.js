@@ -3,6 +3,11 @@ import Image from 'next/image'
 import profilePic from '../public/images/JavierWasserman.jpg'
 import coverPic from '../public/images/cover.jpg'
 import dreamly from '../public/images/dreamly.png'
+import caece from '../public/images/universidad-caece.svg'
+import ort from '../public/images/world-ort.svg'
+import coursera from '../public/images/coursera.svg'
+import coderhouse from '../public/images/coderhouse.png'
+
 
 export default function Home() {
   return (
@@ -158,15 +163,19 @@ export default function Home() {
         <div className='pt-8 border-b'>
           <h2 className='font-roboto font-bold mt-0'>Recent training</h2>
           <div className='w-full my-4 pb-3'>
+          <div className='mr-4 float-left'><Image src={coursera} width='120' height='70'></Image></div>
             <div className='leading-8 text-gray-700 font-medium'>NodeJS, Express & MongoDB (oAuth, Performance, Testing, Api REST, etc)
           </div>
+
             <div className='leading-8 text-gray-500'>Coursera 10/2020</div>
+            
             <div className='w-full p-4 my-3 bg-gray-100 font-mono text-sm'>
               Certificate: <a className='underline' href='https://drive.google.com/file/d/1D7vaiLDjXzN2HM8qL-PUfsld6YHW-mO5/view?usp=sharing'>Here</a>
             </div>
           </div>
 
           <div className='w-full pb-3'>
+          <div className='mr-4 mt-3 float-left'><Image src={coderhouse} width='125' height='35'></Image></div>
             <div className='leading-8 text-gray-700 font-medium'>React JS Intensive Training
           </div>
             <div className='leading-8 text-gray-500'>CoderHouse 08/2020</div>
@@ -178,10 +187,12 @@ export default function Home() {
         <div className='pt-8 border-b'>
           <h2 className='font-roboto font-bold mt-0'>Formal education</h2>
           <div className='w-full my-4 pb-3'>
+            <div className='mr-4 float-left'><Image src={caece} width='50' height='50'></Image></div>
             <div className='leading-8 text-gray-700 font-medium'>Information Systems Engineer</div>
             <div className='leading-8 text-gray-500'>Universidad CAECE (AR) 2004-2008</div>
           </div>
           <div className='w-full my-4 pb-3'>
+          <div className='mr-4 float-left'><Image src={ort} width='50' height='50'></Image></div>
             <div className='leading-8 text-gray-700 font-medium'>Bachelor's Degree Information Technology & Computer Science</div>
             <div className='leading-8 text-gray-500'>ORT Argentina (AR) 1998 - 2002 </div>
           </div>
