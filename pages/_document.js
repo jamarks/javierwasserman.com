@@ -26,6 +26,23 @@ class MyDocument extends Document {
            media="print"
            onLoad="this.media='all'"
          />
+
+<script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-05F11LY4ST"
+        />
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-05F11LY4ST', { page_path: window.location.pathname });
+            `,
+          }}
+        />
+
          <noscript>
            <link
              rel="stylesheet"
