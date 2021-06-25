@@ -8,6 +8,8 @@ import ort from '../public/images/world-ort.svg'
 import coursera from '../public/images/coursera.svg'
 import coderhouse from '../public/images/coderhouse.png'
 import vercel from '../public/images/vercel.svg'
+import regrow from '../public/images/regrow.png'
+import regrowlarge from '../public/images/regrowacademy.png'
 
 
 export default function Home() {
@@ -171,10 +173,10 @@ export default function Home() {
 
 
             <div className='clear visible sm:invisible'></div>
-            <div className='leading-8 text-gray-500'>Coursera 10/2020</div>
+            <div className='leading-8 text-gray-500'><a className='underline' target='_blank' href='https://www.coursera.org/'>Coursera</a> 10/2020</div>
 
             <div className='w-full p-4 my-3 bg-gray-100 font-mono text-sm'>
-              Certificate: <a className='underline' href='https://drive.google.com/file/d/1D7vaiLDjXzN2HM8qL-PUfsld6YHW-mO5/view?usp=sharing'>Here</a>
+              Certificate: <a className='underline' target='_blank' href='https://drive.google.com/file/d/1D7vaiLDjXzN2HM8qL-PUfsld6YHW-mO5/view?usp=sharing'>Here</a>
             </div>
           </div>
 
@@ -183,9 +185,20 @@ export default function Home() {
             <div className='leading-8 text-gray-700 font-medium'>React JS Intensive Training
             </div>
             <div className='clear visible sm:invisible'></div>
-            <div className='leading-8 text-gray-500'>CoderHouse 08/2020</div>
+            <div className='leading-8 text-gray-500'><a className='underline' target='_blank' href='https://www.coderhouse.es/'>CoderHouse</a> 08/2020</div>
             <div className='w-full p-4 my-3 bg-gray-100 font-mono text-sm'>
-              Certificate: <a className='underline' href='https://drive.google.com/file/d/1HDqtQqvYNucFhes5yIQJFYN_oSFENrKy/view?usp=sharing'>Here</a>
+              Certificate: <a className='underline' target='_blank' href='https://drive.google.com/file/d/1HDqtQqvYNucFhes5yIQJFYN_oSFENrKy/view?usp=sharing'>Here</a>
+            </div>
+          </div>
+
+          <div className='w-full pb-3'>
+            <div className='mr-4 mt-3 float-left content-center'><Image src={regrowlarge} width='125' height='43'></Image></div>
+            <div className='leading-8 text-gray-700 font-medium'>B2B Growth Marketing
+            </div>
+            <div className='clear visible sm:invisible'></div>
+            <div className='leading-8 text-gray-500'><a className='underline' target='_blank' href='https://regrow.academy/'>Regrow Academy</a> 06/2020 </div>
+            <div className='w-full p-4 my-3 bg-gray-100 font-mono text-sm'>
+              Certificate: <a className='underline' target='_blank' href='https://drive.google.com/file/d/1z6YbdlK5d8SXlNnvyuuRylNQ5yLq6RFs/view?usp=sharing'>Here</a>
             </div>
           </div>
         </div>
@@ -195,12 +208,12 @@ export default function Home() {
 
             <div className='mr-4 float-left'><Image src={caece} width='50' height='50'></Image></div>
             <div className='leading-8 text-gray-700 font-medium'>Information Systems Engineer</div>
-            <div className='leading-8 text-gray-500'>Universidad CAECE (AR) 2004-2008</div>
+            <div className='leading-8 text-gray-500'><a target='_blank' className='underline' href='https://www.ucaece.edu.ar/es/'>Universidad CAECE</a> (AR) 2004-2008</div>
           </div>
           <div className='w-full my-4 pb-3'>
             <div className='mr-4 float-left'><Image src={ort} width='50' height='50'></Image></div>
             <div className='leading-8 text-gray-700 font-medium'>Bachelor's Degree Information Technology & Computer Science</div>
-            <div className='leading-8 text-gray-500'>ORT Argentina (AR) 1998-2002 </div>
+            <div className='leading-8 text-gray-500'><a href='' target='_blank' className='underline'>ORT Argentina</a> (AR) 1998-2002 </div>
           </div>
         </div>
 
