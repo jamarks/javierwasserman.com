@@ -29,6 +29,15 @@ export default function Home() {
 
       <div className='container mx-auto px-2 sm:px-0 sm:w-8/12'>
         <h1 className='font-roboto font-bold my-3'>Hi! Hello! Hallo!</h1>
+        <div className='flex flex-col sm:flex-row mb-2'>
+          <div className='p-3 font-normal text-base bg-blue-300 bg-opacity-50 mr-2 rounded-sm '><a href='#about'>Me</a></div>
+          <div className='p-3 font-normal text-base bg-blue-300 bg-opacity-50 mr-2 rounded-sm '><a href='#contact'>Contact</a></div>
+          <div className='p-3 font-normal text-base bg-blue-300 bg-opacity-50 mr-2 rounded-sm '><a href='#freelance'>Freelance</a></div>
+          <div className='p-3 font-normal text-base bg-blue-300 bg-opacity-50 mr-2 rounded-sm '><a href='#work'>Work</a></div>
+          <div className='p-3 font-normal text-base bg-blue-300 bg-opacity-50 mr-2 rounded-sm '><a href='#lang'>Languages</a></div>
+          <div className='p-3 font-normal text-base bg-blue-300 bg-opacity-50 mr-2 rounded-sm '><a href='#training'>Training</a></div>
+          <div className='p-3 font-normal text-base bg-blue-300 bg-opacity-50 mr-2 rounded-sm '><a href='#education'>Education</a></div>
+         </div>
         <div className='w-full p-4 bg-gray-100 font-mono text-xs '>
 
           <pre className='overflow-auto'>{`
@@ -44,22 +53,24 @@ export default function Home() {
   `}</pre>
 
         </div>
-
+        <a id='about'/>
         <div className='sm:border-l-4 sm:pl-10 w-full py-3 mt-2'>
           <p className='leading-6'>I am an Entrepreneur and Full-Stack Developer, born in Buenos Aires, Argentina 🇦🇷, now living in Berlin 🇩🇪 with more than 15 years of coding experience (PHP, Node, React,  Next.js enthusiast).</p>
           <p className='leading-6 mt-4'>In 2013 I have co-founded EntrenaYa, a B2C & B2B fitness subscriptions marketplace, with more than 800 gyms and fitness centers from LATAM working with us.</p>
           <p className='leading-6 mt-4'>Trained by great business accelerators such us 500 Startups & Startup Chile.<br /> Problem solver. Optimistic. Lateral thinking. Sagittarius. Musician. Cook. Wine Geek.</p>
 
         </div>
-        <h2 className='font-roboto font-bold mt-10'>Contact information</h2>
+        <a id='contact'/>
+        <h2 className='font-roboto font-bold mt-10'>Contact information</h2>        
         <div className='w-full border-b pb-6 '>
           <div className='flex flex-col sm:flex-row' >
-            <div className='p-3 font-normal text-base bg-blue-300 bg-opacity-50 mr-2 rounded-sm'>jamarks at gmail dot com</div>
-            <div className='p-3 font-normal text-base bg-blue-300 bg-opacity-50 mr-2 rounded-sm'><a href='https://www.linkedin.com/in/javier-wasserman-45a195a/'>Linkedin</a></div>
-            <div className='p-3 font-normal text-base bg-blue-300 bg-opacity-50 mr-2 rounded-sm'><a href='https://twitter.com/javierwasserman'>Twitter</a></div>
-            <div className='p-3 font-normal text-base bg-blue-300 bg-opacity-50 mr-2 rounded-sm'><a href='https://github.com/jamarks/'>Github</a></div>
+            <div className='p-3 font-normal text-sm bg-blue-300 bg-opacity-50 mr-2 rounded-sm'>jamarks at gmail dot com</div>
+            <div className='p-3 font-normal text-sm bg-blue-300 bg-opacity-50 mr-2 rounded-sm'><a href='https://www.linkedin.com/in/javier-wasserman-45a195a/'>Linkedin</a></div>
+            <div className='p-3 font-normal text-sm bg-blue-300 bg-opacity-50 mr-2 rounded-sm'><a href='https://twitter.com/javierwasserman'>Twitter</a></div>
+            <div className='p-3 font-normal text-sm bg-blue-300 bg-opacity-50 mr-2 rounded-sm'><a href='https://github.com/jamarks/'>Github</a></div>
           </div>
         </div>
+        <a id='freelance'/>
         <h2 className='font-roboto font-bold mt-8'>Last Freelance Projects</h2>
         <div className='w-full pb-10 border-b'>
           <h4>Dreamly | Main Full-Stack Developer</h4>
@@ -79,17 +90,18 @@ export default function Home() {
             </div>
           </div>
         </div>
-
+        <a id='work'/>
         <h2 className='font-roboto font-bold mt-10'>Work Experience</h2>
         <div className='w-full my-8  pb-3'>
           <h3 className='text-gray-600 font-semibold'>BEON Tech Studio | Growth Manager</h3>
 
           <div className='leading-8 text-gray-500 py-1'>5/2020 - 6/2021 | <a className='underline' href='https://beon.studio'>https://beon.studio</a></div>
-          <span>I create, execute and measure all kinds of semi-automated strategies for client acquisition at a software factory, overseeing a small team of 4.</span>
+          <span>I introduced and implemented growth strategy techniques to scale Sales and Hiring processes of one of the most promising IT staff augmentation companies in Latam, in an already very overcrowded and growing industry.</span>
           <div>
             <ul className='list-disc ml-8 mt-2'>
-              <li className='leading-8'>Developing small React interfaces to interact between API´s third party and MYSQL database.</li>
-              <li className='leading-8'>PHP based scrappers.</li>
+              <li className='leading-8'>Initiate and orchestrate lead-generation programs across different and connected platforms and help grow Beon's sales funnel and IT candidates audience.</li>
+              <li className='leading-8'>Create original sales-enablement tools to help the sales team deliver a compelling story to prospect customers.</li>
+              <li className='leading-8'>Develop original content and copywriting for emails, website, blogs, presentations and other collateral.</li>
             </ul>
           </div>
         </div>
@@ -111,7 +123,7 @@ export default function Home() {
         <div className='w-full my-8 pb-3'>
           <h3 className='text-gray-600 font-semibold'>CONSULT-AR | Tech Lead & Full-Stack Developer</h3>
           <div className='leading-8 text-gray-500 py-1'>Buenos Aires (AR) 2010-2013 | <a className='underline' href='https://consult-ar.info'>https://consult-ar.info</a></div>
-          <span>Developed, mantained and scaled an in-house e-commerce content manager system for over 100 LATAM travel agencies.</span>
+          <span>Developed, mantained and scaled an in-house e-commerce content manager system for over 100 LATAM travel agencies. We experienced an average of 65%</span>
           <div className='mt-4'>
             <ul className='list-disc ml-8 mt-2'>
               <li className='leading-8'>MVC based on PHP & MySQL.</li>
@@ -153,6 +165,7 @@ export default function Home() {
           <ul><li className='list-disc ml-8 mt-2'>Visual Basic and MQ SQL Server based in-house ERP for mid-large size companies.</li></ul>
         </div>
 
+        <a id='lang'/>
         <div className='pt-8 border-b border-t'>
           <h2 className='font-roboto font-bold mt-0'>Language</h2>
           <div className='w-full my-4 pb-3'>
@@ -164,6 +177,7 @@ export default function Home() {
             </ul>
           </div>
         </div>
+        <a id='training'/>
         <div className='pt-8 border-b'>
           <h2 className='font-roboto font-bold mt-0'>Recent training</h2>
           <div className='w-full my-4 pb-3'>
@@ -202,6 +216,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <a id='education'/>
         <div className='pt-8'>
           <h2 className='font-roboto font-bold mt-0'>Formal education</h2>
           <div className='w-full my-4 pb-3'>
