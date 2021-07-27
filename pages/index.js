@@ -23,8 +23,8 @@ export default function Home() {
         <meta name='keyworkds' content='Javier Wasserman - Full Stack Developer in Berlin | Entrepreneur'></meta>
         <meta property="og:title" content='Javier Wasserman - Full Stack Developer in Berlin | Entrepreneur' key="ogtitle" />
         <meta property="og:description" content='This is me >' key="ogdesc" />
-        <meta property="og:url" content='https://www.javierwasserman.com/images/JavierWasserman2.jpeg' key="ogurl" />
-        <meta property="og:image" content='https://www.javierwasserman.com/' key="ogimage" />
+        <meta property="og:url" content='https://www.javierwasserman.com/' key="ogurl" />
+        <meta property="og:image" content='https://www.javierwasserman.com/images/JavierWasserman2.jpeg' key="ogimage" />
         <meta property="og:site_name" content='Javier Wasserman  - Full Stack Developer in Berlin | Entrepreneur' key="ogsitename" />
       </Head>
       <div className='w-full' style={{ height: '400px', position: 'relative' }}>
