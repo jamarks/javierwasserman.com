@@ -78,6 +78,27 @@ export default function Home() {
             <div className='p-3 font-normal text-sm bg-blue-300 bg-opacity-50 mr-2 rounded-sm'><a href='https://github.com/jamarks/'>Github</a></div>
           </div>
         </div>
+        <a id='qiqr'/>
+        <h2 className='font-roboto font-bold mt-8 mb-4'>Something I've been working on the last few weeks</h2>
+        <div className='w-full pb-10 border-b'>
+          <h4>Bye, Business Card. <b>Hello, QIQR.</b></h4>
+          <ul className='list-disc ml-8 mt-2'>
+            <li className='leading-8'>Nextjs (React Framework) + TailwindCSS - Deployed in Vercel.</li>
+            <li className='leading-8'>vCard + QR Generator, using S3 Bucket and Firebase. </li>
+            <li className='leading-8'>Using NextAuth for authentication </li>
+          </ul>
+          <div className='flex flex-col sm:flex-row p-2 border-2 mt-6'>
+            <div className='w-full sm:w-3/5 p-1'>
+              <div className='text-gray-500'>QIQR</div>
+              <div className='w-full'>Its QIQR because it is „Quicker“.  <br/>Business Cards are an obsolete technology. How many of your phone contacts are no longer valid? Get your innovated QIQR on your phone, share your data and be aware whenever any contact change any of their contact data.</div>
+              <div className='text-sm text-gray-400 '>7-2021 | <a className='underline' href='https://qiqr.app'>qiqr.app</a></div>
+            </div>
+            <div className='invisible sm:visible sm:w-2/12'></div>
+            <div className='w-full sm:w-2/12 mt-1 p-4 sm:pl-2 '>
+              <a href='https://qiqr.app'><img src='/images/qiqr-logo.png'></img></a>
+            </div>
+          </div>
+        </div>
         <a id='freelance'/>
         <h2 className='font-roboto font-bold mt-8'>Last Freelance Projects</h2>
         <div className='w-full pb-10 border-b'>
