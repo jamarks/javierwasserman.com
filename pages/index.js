@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import profilePic from '../public/images/JavierWasserman.jpg'
+import profilePic2 from '../public/images/JavierWasserman2.jpeg'
 import coverPic from '../public/images/cover.jpg'
 import dreamly from '../public/images/dreamly.png'
 import caece from '../public/images/universidad-caece.svg'
@@ -16,8 +17,15 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Javier Wasserman - Full Stack Dev & Entrepreneur</title>
+        <title>Javier Wasserman - Full Stack Developer in Berlin | Entrepreneur</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name='description' content='This is me > Javier Wasserman'></meta>
+        <meta name='keyworkds' content='Javier Wasserman - Full Stack Developer in Berlin | Entrepreneur'></meta>
+        <meta property="og:title" content='Javier Wasserman - Full Stack Developer in Berlin | Entrepreneur' key="ogtitle" />
+        <meta property="og:description" content='This is me >' key="ogdesc" />
+        <meta property="og:url" content='https://www.javierwasserman.com/images/JavierWasserman2.jpeg' key="ogurl" />
+        <meta property="og:image" content='https://www.javierwasserman.com/' key="ogimage" />
+        <meta property="og:site_name" content='Javier Wasserman  - Full Stack Developer in Berlin | Entrepreneur' key="ogsitename" />
       </Head>
       <div className='w-full' style={{ height: '400px', position: 'relative' }}>
         <Image style={{ height: '150px' }} src={coverPic} layout='fill' objectFit='cover' objectPosition='center' quality={100}></Image>
