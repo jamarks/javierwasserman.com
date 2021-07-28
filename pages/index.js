@@ -90,7 +90,7 @@ export default function Home() {
           <div className='flex flex-col sm:flex-row p-2 border-2 mt-6'>
             <div className='w-full sm:w-3/5 p-1'>
               <div className='text-gray-500'>QIQR</div>
-              <div className='w-full'>Its QIQR because it is „Quicker“.  <br/>Business Cards are an obsolete technology. How many of your phone contacts are no longer valid? Get your innovated QIQR on your phone, share your data and be aware whenever any contact change any of their contact data.</div>
+              <div className='w-full'>Its QIQR because it is „Quicker“.  <br/>Business Cards are an obsolete technology. How many of your phone contacts are no longer valid? Get your innovated QIQR on your phone, share your data and be aware whenever any contact change any of their contact data. <a target='_blank' className='underline text-blue-600' href='https://qiqr.app/u/776vRrdj4TVfa8lZ6mUC'>This is my QIQR!</a> </div>
               <div className='text-sm text-gray-400 '>7-2021 | <a className='underline' href='https://qiqr.app'>qiqr.app</a></div>
             </div>
             <div className='invisible sm:visible sm:w-2/12'></div>
