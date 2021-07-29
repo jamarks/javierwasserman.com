@@ -111,7 +111,7 @@ export default function Home() {
             <div className='w-full sm:w-3/5 p-1'>
               <div className='text-gray-500'>Dreamly</div>
               <div className='w-full'>Out of the thousand offers out there, we want to make sure that the one that really suits you finds you while keeping your inbox clear of spam.</div>
-              <div className='text-sm text-gray-400 '>12/2020 - 4/2021 | <a className='underline' href='https://dream-ly/com'>dream-ly.com</a></div>
+              <div className='text-sm text-gray-400 '>12/2020 - 4/2021 | <a className='underline' href='https://dream-ly.com'>dream-ly.com</a></div>
             </div>
             <div className='invisible sm:visible sm:w-2/12'></div>
             <div className='w-full sm:w-2/12 mt-4 p-8 sm:pl-2 '>
