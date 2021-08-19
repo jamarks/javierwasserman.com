@@ -46,7 +46,7 @@ export default function Home() {
           <div className='p-3 font-normal text-base bg-blue-300 bg-opacity-50 mr-2 rounded-sm '><a href='#training'>Training</a></div>
           <div className='p-3 font-normal text-base bg-blue-300 bg-opacity-50 mr-2 rounded-sm '><a href='#education'>Education</a></div>
          </div>
-        <div className='w-full p-4 bg-gray-100 font-mono text-xs '>
+        {/* <div className='w-full p-4 bg-gray-100 font-mono text-xs '>
 
           <pre className='overflow-auto'>{`
   const me = () => {
@@ -60,7 +60,7 @@ export default function Home() {
   }
   `}</pre>
 
-        </div>
+        </div> */}
         <a id='about'/>
         <div className='sm:border-l-4 sm:pl-10 w-full py-3 mt-2'>
           <p className='leading-6'>I am an Entrepreneur and Full-Stack Developer, born in Buenos Aires, Argentina 🇦🇷, now living in Berlin 🇩🇪 with more than 15 years of coding experience (PHP, Node, React,  Next.js enthusiast).</p>
@@ -83,9 +83,9 @@ export default function Home() {
         <div className='w-full pb-10 border-b'>
           <h4>Bye, Business Card. <b>Hello, QIQR.</b></h4>
           <ul className='list-disc ml-8 mt-2'>
-            <li className='leading-8'>Nextjs (React Framework) + TailwindCSS - Deployed in Vercel.</li>
+            <li className='leading-8'>Nextjs (React Framework) + Nodejs under Nextjs/API + + TailwindCSS - Deployed in Vercel.</li>
             <li className='leading-8'>vCard + QR Generator, using S3 Bucket and Firebase. </li>
-            <li className='leading-8'>Using NextAuth for authentication </li>
+            <li className='leading-8'>NextAuth for authentication with Linkedin, Google and Twitter.</li>
           </ul>
           <div className='flex flex-col sm:flex-row p-2 border-2 mt-6'>
             <div className='w-full sm:w-3/5 p-1'>
@@ -104,34 +104,35 @@ export default function Home() {
         <div className='w-full pb-10 border-b'>
           <h4>Dreamly | Main Full-Stack Developer</h4>
           <ul className='list-disc ml-8 mt-2'>
-            <li className='leading-8'>Nextjs (React Framework) + TailwindCSS - Deployed in Vercel.</li>
+            <li className='leading-8'>Nextjs (React Framework) + Nodejs under Nextjs/API + TailwindCSS - Deployed in Vercel.</li>
             <li className='leading-8'>NodeJS Express Server: API Rest - PostgreSQL with Sequelize ORM - Deployed in Heroku.</li>
           </ul>
           <div className='flex flex-col sm:flex-row p-2 border-2 mt-6'>
-            <div className='w-full sm:w-3/5 p-1'>
-              <div className='text-gray-500'>Dreamly</div>
+            <div className='w-full sm:w-5/5 p-1'>
+              <div className='text-gray-500 font-bold'>Dreamly</div>
               <div className='w-full'>Out of the thousand offers out there, we want to make sure that the one that really suits you finds you while keeping your inbox clear of spam.</div>
               <div className='text-sm text-gray-400 '>12/2020 - 4/2021 | <a className='underline' href='https://dream-ly.com'>dream-ly.com</a></div>
             </div>
             <div className='invisible sm:visible sm:w-2/12'></div>
-            <div className='w-full sm:w-2/12 mt-4 p-8 sm:pl-2 '>
-              <a href='https://dream-ly/com'><img src='/images/dreamly.png'></img></a>
+            <div className='w-full sm:w-10/12 mt-4 p-8 sm:pl-2 '>
+              <a href='https://dream-ly/com'><img src='/images/dreamly-gif.gif'></img></a>
             </div>
           </div>
         </div>
         <a id='work'/>
         <h2 className='font-roboto font-bold mt-10'>Work Experience</h2>
         <div className='w-full my-8  pb-3'>
-          <h3 className='text-gray-600 font-semibold'>BEON Tech Studio | Growth Manager</h3>
+          <h3 className='text-gray-600 font-semibold'>BEON Tech Studio | Growth Engineer</h3>
 
           <div className='leading-8 text-gray-500 py-1'>5/2020 - 6/2021 | <a className='underline' href='https://beon.studio'>https://beon.studio</a></div>
           <span>I introduced and implemented growth strategy techniques to scale Sales and Hiring processes of one of the most promising IT staff augmentation companies in Latam, in an already very overcrowded and growing industry.</span>
           <div>
             <ul className='list-disc ml-8 mt-2'>
-              <li className='leading-8'>Initiate and orchestrate lead-generation programs across different and connected platforms and help grow Beon's sales funnel and IT candidates audience.</li>
+              <li className='leading-8'>Initiate and orchestrate lead-generation semi-automated programs across different and connected platforms and help grow Beon's sales funnel and IT candidates audience.</li>
               <li className='leading-8'>Create original sales-enablement tools to help the sales team deliver a compelling story to prospect customers.</li>
               <li className='leading-8'>Develop original content and copywriting for emails, website, blogs, presentations and other collateral.</li>
             </ul>
+            <p className='italic mt-1 text-indigo-400'> Some of the tools I used in daily basis: Reply.io, Salesforce & Hubspot CRM, Zapier, Google Sheets Api, Workable, Google Analytics and Google Tag manager, Visual Studio Code, Postmand among others </p>
           </div>
         </div>
         <div className='w-full my-8 pb-3'>
@@ -147,6 +148,7 @@ export default function Home() {
               <li className='leading-8'>Backed by Startup Chile Gen 10 (2015). <a className='underline' href='https://www.contxto.com/en/market-map/15-south-american-sports-tech-startups-innovating-wellness-and-fitness/](https://www.contxto.com/en/market-map/15-south-american-sports-tech-startups-innovating-wellness-and-fitness/'>Press release here</a>. </li>
               <li className='leading-8'>Recognized as one of the <a href='https://contxto.com/en/market-map/15-south-american-sports-tech-startups-innovating-wellness-and-fitness/' className='underline'>best Sports-Tech Startups</a> and featured in many press articles, such as <a className='underline' href='https://www.insightssuccess.com/entrenaya-assisting-in-accomplishing-fitness-goals/'>this one by Insight Success</a>.</li>
             </ul>
+            <p className='italic mt-1 text-indigo-400'> Some of the tools I used in daily basis: Amazon SES, Amazon EC2 and Elasticbeanstalk, Route53, MySQL, Pipedrive, Google Sheets, Google Analytics and Google Tag manager, Google Adwords, Groovy Tool Suite among others.</p>
           </div>
         </div>
         <div className='w-full my-8 pb-3'>
