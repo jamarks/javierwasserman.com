@@ -53,9 +53,10 @@ export default function Home() {
     const name = 'Javier Alberto Wasserman';
     const birthDate = 'December 13/1984';
     const birthLocation = 'Buenos Aires, Argentina';
+    const residency = 'Berlin, Deutschland'
     
     return <>
-      Hola! Hi! Hallo! I am {name}, I was born in {birthLocation}, {birthDate}
+      Hola! Hi! Hallo! I am {name}, I was born in {birthLocation}, {birthDate} and I love living in {residency} 
     </>
   }
   `}</pre>
@@ -65,7 +66,7 @@ export default function Home() {
         <div className='sm:border-l-4 sm:pl-10 w-full py-3 mt-2'>
           <p className='leading-6'>I am an Entrepreneur and Full-Stack Developer, born in Buenos Aires, Argentina 🇦🇷, now living in Berlin 🇩🇪 with more than 15 years of coding experience (PHP, Node, React,  Next.js enthusiast).</p>
           <p className='leading-6 mt-4'>In 2013 I have co-founded EntrenaYa, a B2C & B2B fitness subscriptions marketplace, with more than 800 gyms and fitness centers from LATAM working with us.</p>
-          <p className='leading-6 mt-4'>Trained by great business accelerators such us 500 Startups & Startup Chile.<br /> Problem solver. Optimistic. Lateral thinking. Sagittarius. Musician. Cook. Wine Geek.</p>
+          <p className='leading-6 mt-4'>Trained by great business accelerators such as 500 Startups & Startup Chile.<br /> Problem solver. Optimistic. Lateral thinking. Sagittarius. Musician. Cook. Wine Geek.</p>
 
         </div>
         <a id='contact'/>
@@ -132,7 +133,7 @@ export default function Home() {
               <li className='leading-8'>Create original sales-enablement tools to help the sales team deliver a compelling story to prospect customers.</li>
               <li className='leading-8'>Develop original content and copywriting for emails, website, blogs, presentations and other collateral.</li>
             </ul>
-            <p className='italic mt-1 text-indigo-400'> Some of the tools I used in daily basis: Reply.io, Salesforce & Hubspot CRM, Zapier, Google Sheets Api, Workable, Google Analytics and Google Tag manager, Visual Studio Code, Postmand among others </p>
+            <p className='italic mt-1 text-indigo-400'> Some of the tools I used in daily basis: Reply.io, Salesforce & Hubspot CRM, Zapier, Google Sheets Api, Trello, Workable, Google Analytics and Google Tag manager, Visual Studio Code, Postman among others </p>
           </div>
         </div>
         <div className='w-full my-8 pb-3'>
@@ -148,7 +149,7 @@ export default function Home() {
               <li className='leading-8'>Backed by Startup Chile Gen 10 (2015). <a className='underline' href='https://www.contxto.com/en/market-map/15-south-american-sports-tech-startups-innovating-wellness-and-fitness/](https://www.contxto.com/en/market-map/15-south-american-sports-tech-startups-innovating-wellness-and-fitness/'>Press release here</a>. </li>
               <li className='leading-8'>Recognized as one of the <a href='https://contxto.com/en/market-map/15-south-american-sports-tech-startups-innovating-wellness-and-fitness/' className='underline'>best Sports-Tech Startups</a> and featured in many press articles, such as <a className='underline' href='https://www.insightssuccess.com/entrenaya-assisting-in-accomplishing-fitness-goals/'>this one by Insight Success</a>.</li>
             </ul>
-            <p className='italic mt-1 text-indigo-400'> Some of the tools I used in daily basis: Amazon SES, Amazon EC2 and Elasticbeanstalk, Route53, MySQL, Pipedrive, Google Sheets, Google Analytics and Google Tag manager, Google Adwords, Groovy Tool Suite among others.</p>
+            <p className='italic mt-1 text-indigo-400'> Some of the tools I used in daily basis: Amazon SES, Amazon EC2 and Elasticbeanstalk, Route53, MySQL , Pipedrive, Google Sheets, Google Analytics and Google Tag manager, Google Adwords, Groovy Tool Suite, MercadoPago(AR) - Conekta (MX) -  WebPAY (CL) Payment Systems API among others.</p>
           </div>
         </div>
         <div className='w-full my-8 pb-3'>
@@ -160,6 +161,7 @@ export default function Home() {
               <li className='leading-8'>MVC based on PHP & MySQL.</li>
               <li className='leading-8'>XML Web Services - API REST integrations with airlines, cruises, cars, tours and hotels reservation systems.</li>
             </ul>
+            <p className='italic mt-1 text-indigo-400'> Some of the tools I used in daily basis: PhpMyAdmin, PHP & MYSQL, Google Analytics, Google Adwords, Payment Systems API.</p>
           </div>
         </div>
 
